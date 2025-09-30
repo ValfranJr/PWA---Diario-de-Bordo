@@ -6,14 +6,6 @@
   "background_color": "#fff",
   "description": "Um aplicativo para gerenciar o diário de bordo do usuário",
   "theme_color": "#41b883",
-  "orientation": "portrait",
-  "scope": "/",
-  "dir": "ltr",
-  "lang": "pt-br",
-  "prefer_related_applications": false,
-  "related_applications": [],
-  "serviceworker": "service-worker.js",
-  "categories": ["productivity"],
   "screenshots": [
     {
       "src": "screenshots/image.png",

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   height: 100vh;
   background: linear-gradient(
@@ -26,8 +27,8 @@ h1 {
   flex-direction: column;
   border: 2px solid #fff;
   padding: 30px 20px;
-  width: 40%;
-  min-width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .form-container {
@@ -118,3 +119,24 @@ h1 {
 .form-input.error {
   border: 2px solid #de2c2c;
 }
+
+/* Tablets e telas médias (768px ou menos) */
+/* @media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+    border-width: 1px;
+  }
+
+} */
+
+/* Smartphones e telas pequenas (480px ou menos) */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+  .container {
+    height: 100%;
+  }
+
+}
+
