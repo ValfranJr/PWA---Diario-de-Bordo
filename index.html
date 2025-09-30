@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
     <title>Diário de Bordo</title>
 </head>
 
@@ -13,19 +14,43 @@
     <div class="container">
         <div class="form-container">
             <h1>Diário de Bordo</h1>
+
             <label for="title">Título:</label>
-            <input type="text" id="title" placeholder="Adicione o título da atividade...">
+            <input class="form-input" type="text" id="title" placeholder="Insira o título da atividade..." />
 
             <label for="description">Descrição:</label>
-            <textarea cols="30" rows="5" id="description" placeholder="Insira a descrição da atividade..."></textarea>
+            <input class="form-input" type="text" id="description" placeholder="Insira a descrição da atividade..." />
 
             <label for="date">Data:</label>
-            <input type="text" placeholder="Insira a data da atividade..." id="date">
+            <input class="form-input" type="date" placeholder="Insira a data da atividade..." id="date">
+
             <button class="add-button">Adicionar</button>
         </div>
-        <div class="list-container"></div>
+        <div class="list-container">
+            <div class="item">
+                <h2>Título 1</h2>
+                <p>Descrição 1</p>
+                <p>29/04/2022</p>
+                <i class="fas fa-trash-alt"></i>
+            </div>
+            <div class="item">
+                <h2>Título 2</h2>
+                <p>Descrição 2</p>
+                <p>29/04/2022</p>
+                <i class="fas fa-trash-alt"></i>
+            </div>
+            <div class="item">
+                <h2>Título 3</h2>
+                <p>Descrição 3</p>
+                <p>29/04/2022</p>
+                <i class="fas fa-trash-alt"></i>
+            </div>
+        </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/9232b85506.js" crossorigin="anonymous"></script>
+    <script src="./script.js">
+
+    </script>
 </body>
 
 </html>
